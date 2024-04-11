@@ -52,4 +52,13 @@ public class Person implements Serializable {
     public void setRegistered(boolean registered) {
         this.registered = registered;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", number=" + number +
+                ", registered=" + registered +
+                '}';
+    }
 }

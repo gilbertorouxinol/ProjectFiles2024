@@ -42,7 +42,6 @@ public class FileObject<T extends Serializable> implements Serializable {
      */
     public ArrayList<T> reader(String filePathName) {
         ArrayList<T> result = new ArrayList<>();
-        Boolean EOF = false;
 
         try {
 

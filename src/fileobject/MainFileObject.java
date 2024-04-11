@@ -55,10 +55,11 @@ public class MainFileObject {
     static void show(ArrayList<Person> lt){
         int i = 0;
         for (Person p:  lt) {
-            System.out.println("Object " + (i++) + ":");
-            System.out.println("   " + p.getName());
-            System.out.println("   " + p.getNumber());
-            System.out.println("   " + p.isRegistered());
+            //System.out.println("Object " + (i++) + ":");
+            //System.out.println("   " + p.getName());
+            //System.out.println("   " + p.getNumber());
+            //System.out.println("   " + p.isRegistered());
+            System.out.println("   " + p.toString());
         }
     }
 }
